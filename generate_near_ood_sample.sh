@@ -1,0 +1,11 @@
+OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=0 python generate_near_ood_sample.py \
+    --device cuda \
+    --batch-size 2 \
+    --data-dir data/ImageNet/ \
+    --save-dir ood_generated_samples/near_energy \
+    --context-dir texts/matched_info.jsonl \
+    --strength 0.6 \
+    --num_inference_steps 20 \
+    --iter 3 \
+    --method energy \
+    --lr 10
