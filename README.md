@@ -34,7 +34,7 @@ For a complete workflow, refer to `run.sh`, which orchestrates all steps in the 
 
 **We've released the [inference code](https://github.com/Jarvisgivemeasuit/SynOOD_infer_pipeline) of SynOOD.**
 
-**The near-OOD dataset will be released soon.**
+**Our generative near-OOD datasets are available at [nearOOD of SynOOD](https://huggingface.co/datasets/Grey0423/nearOOD_of_SynOOD/tree/main).**
 
 
 ## Citation
